@@ -1,0 +1,32 @@
+[33m73d6c43[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Add frontend project
+ frontend                                |    1 [31m-[m
+ frontend/.env.example                   |    2 [32m+[m
+ frontend/index.html                     |   15 [32m+[m
+ frontend/package-lock.json              | 1782 [32m+++++++++++++++++++++++++++++++[m
+ frontend/package.json                   |   20 [32m+[m
+ frontend/public/favicon.svg             |    1 [32m+[m
+ frontend/src/App.jsx                    |  112 [32m++[m
+ frontend/src/api.js                     |   50 [32m+[m
+ frontend/src/components/EntryModals.jsx |   91 [32m++[m
+ frontend/src/components/PoActions.jsx   |   41 [32m+[m
+ frontend/src/components/ui.jsx          |  161 [32m+++[m
+ frontend/src/main.jsx                   |   13 [32m+[m
+ frontend/src/pages/Dashboard.jsx        |  103 [32m++[m
+ frontend/src/pages/Expenses.jsx         |   60 [32m++[m
+ frontend/src/pages/Login.jsx            |   55 [32m+[m
+ frontend/src/pages/PODetail.jsx         |   93 [32m++[m
+ frontend/src/pages/POForm.jsx           |  174 [32m+++[m
+ frontend/src/pages/POs.jsx              |   64 [32m++[m
+ frontend/src/pages/Parties.jsx          |   92 [32m++[m
+ frontend/src/pages/Reports.jsx          |  171 [32m+++[m
+ frontend/src/pages/Sales.jsx            |   60 [32m++[m
+ frontend/src/pages/Store.jsx            |   78 [32m++[m
+ frontend/src/pages/StyleDetail.jsx      |  246 [32m+++++[m
+ frontend/src/pages/StyleForm.jsx        |  168 [32m+++[m
+ frontend/src/pages/Styles.jsx           |   55 [32m+[m
+ frontend/src/pages/Users.jsx            |   84 [32m++[m
+ frontend/src/styles.css                 |  266 [32m+++++[m
+ frontend/src/utils.js                   |   46 [32m+[m
+ frontend/vercel.json                    |    3 [32m+[m
+ frontend/vite.config.js                 |    7 [32m+[m
+ 30 files changed, 4113 insertions(+), 1 deletion(-)
